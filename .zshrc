@@ -126,6 +126,7 @@ alias gp="git push origin HEAD"
 alias gpu="git pull origin"
 alias gst="git status"
 alias gadd="git add"
+alias of="onefetch"
 
 
 # Dirs
