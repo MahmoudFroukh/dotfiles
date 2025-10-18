@@ -150,6 +150,9 @@ fastfetch
 
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# Zoxide
+eval "$(zoxide init zsh)"
+
 # Starship
 export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 eval "$(starship init zsh)"
