@@ -114,10 +114,11 @@ source $(brew --prefix lmod)/init/zsh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Brew Aliases
+alias bupg="brew update && brew upgrade"
+alias clean="brew cleanup"
+alias doc="brew doctor"
 
 # Git
 alias gc="git commit -m"
@@ -130,12 +131,12 @@ alias of="onefetch"
 
 
 # Dirs
+alias cd="z"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ......="cd ../../../../.."
-alias cd="z"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
