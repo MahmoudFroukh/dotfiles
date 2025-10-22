@@ -1,7 +1,7 @@
 #!/bin/bash
 # install.sh - symlink dotfiles into ~/.config
 
-CONFIGS=(alacritty fastfetch ghostty nvim starship)
+CONFIGS=(alacritty fastfetch ghostty starship)
 
 for conf in "${CONFIGS[@]}"; do
   target="$HOME/.config/$conf"
