@@ -148,7 +148,7 @@ alias cls="clear"
 alias ff="fastfetch"
 alias p="pfetch"
 #pfetch
-#fastfetch
+fastfetch
 figlet Hello Mahmoud | lolcat
 # ~/Documents/Bash_Scripts/welcome-banner.sh
 
