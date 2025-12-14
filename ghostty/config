@@ -1,13 +1,17 @@
 # ----Appearance----
-font-family = MesloLGS Nerd Font Mono
-font-size = 15
+#font-family = MesloLGS Nerd Font Mono
+font-family = "JetBrains Mono"
+font-size = 14.5
 theme = TokyoNight
-background-opacity = 0.9
+#background-opacity = 0.9
 background-blur = true
 mouse-hide-while-typing = true
 shell-integration-features = sudo,no-cursor,no-title
 cursor-style = bar
 cursor-style-blink = false
+macos-icon-frame = chrome
+window-theme = auto
+adjust-cell-height = 1
 
 # ----Quick Terminal----
 keybind = opt+space=toggle_quick_terminal
@@ -15,8 +19,12 @@ quick-terminal-position = center
 quick-terminal-size = 50%
 
 # ----Window Behavior----
+window-padding-x = 25
+window-padding-y = 5
 window-padding-balance = true
 window-save-state = always
+window-width = 26
+window-height = 110
 #macos-titlebar-style =  hidden
 #macos-window-buttons = hidden
 macos-titlebar-proxy-icon = hidden
