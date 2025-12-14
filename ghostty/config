@@ -1,6 +1,6 @@
 # ----Appearance----
 #font-family = MesloLGS Nerd Font Mono
-font-family = "JetBrains Mono"
+font-family = JetBrains Mono
 font-size = 14.5
 theme = TokyoNight
 #background-opacity = 0.9
@@ -12,6 +12,7 @@ cursor-style-blink = false
 macos-icon-frame = chrome
 window-theme = auto
 adjust-cell-height = 1
+title = " "
 
 # ----Quick Terminal----
 keybind = opt+space=toggle_quick_terminal
