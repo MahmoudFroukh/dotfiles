@@ -160,3 +160,6 @@ eval "$(zoxide init zsh)"
 # Starship
 export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 eval "$(starship init zsh)"
+
+# Created by `pipx` on 2026-02-08 10:58:50 for lue 
+export PATH="$PATH:/Users/mahmoudf/.local/bin"
